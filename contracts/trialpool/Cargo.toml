@@ -1,0 +1,17 @@
+[package]
+name = "trialpool"
+version = "0.0.1"
+authors = ["ZQ Jiang <zonquan@gmail.com>"]
+edition = "2018"
+publish = false
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+near-sdk = "=4.0.0-pre.9"
+near-contract-standards = "=4.0.0-pre.9"
+near-sys = "=0.1"
+
+[dev-dependencies]
+near-sdk-sim = "=4.0.0-pre.9"

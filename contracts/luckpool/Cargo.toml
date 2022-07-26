@@ -1,0 +1,16 @@
+[package]
+name = "luckpool"
+version = "0.1.0"
+authors = ["Rain.z <493123129@qq.com>"]
+edition = "2021"
+publish = false
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+near-sdk = "=4.0.0-pre.9"
+near-contract-standards = "=4.0.0-pre.9"
+near-sys = "=0.1"
+rand = "0.7.3"
+rand_distr = "0.3.0"

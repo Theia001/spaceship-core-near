@@ -1,0 +1,14 @@
+[package]
+name = "rankpool"
+version = "0.0.5"
+authors = ["ZQ Jiang <zonquan@gmail.com>"]
+edition = "2018"
+publish = false
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+near-sdk = "=4.0.0-pre.9"
+near-contract-standards = "=4.0.0-pre.9"
+near-sys = "=0.1"
